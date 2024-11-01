@@ -15,7 +15,7 @@ The Cold Email Generator for Job Applications is a self-directed project designe
 ## Technologies Used
 
 - **Programming Language**: 
-  - Python 3.x
+  - Python
 - **Libraries**:
   - **LangChain**: For facilitating the integration of language models to generate natural language text for emails.
   - **Jinja2**: For templating email content to allow dynamic insertion of user data.
