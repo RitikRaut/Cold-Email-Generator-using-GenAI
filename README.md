@@ -14,11 +14,20 @@ The Cold Email Generator for Job Applications is a self-directed project designe
 
 ## Technologies Used
 
-- **Programming Languages**: Python
-- **Email Generation**: Custom scripts
-- **Data Storage**: JSON / CSV
-- **Template Management**: Jinja2 (or similar templating engine)
-- **Testing Framework**: [Include any testing framework you used, e.g., pytest]
+- **Programming Language**: 
+  - Python 3.x
+- **Libraries**:
+  - **LangChain**: For facilitating the integration of language models to generate natural language text for emails.
+  - **Jinja2**: For templating email content to allow dynamic insertion of user data.
+  - **Pandas**: For data handling and storing generated emails in a structured format (optional).
+  - **JSON**: For saving email templates and user data in a readable format.
+  - **SMTP Library (smtplib)**: For sending emails directly from the application (if email-sending functionality is included).
+  - **Email Validator**: To check the validity of email formats.
+- **Development Tools**:
+  - **Visual Studio Code**: As the Integrated Development Environment (IDE).
+  - **Git**: For version control and collaboration.
+- **Testing Framework**: 
+  - **pytest**: For testing the email generation logic and ensuring reliability.
 
 ## Getting Started
 
